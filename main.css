@@ -1,0 +1,58 @@
+.navBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.navBar a{
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+.leftLogo{
+        width: 40px;
+        height: 40px;
+}
+
+.rightLogo{
+        width: 40px;
+        height: 40px;
+}
+
+.pictureBox{
+        display: block;
+        float: left;
+}
+
+.pictureBox ul{
+        list-style-type: none;
+        padding-right: 80px;
+        padding-left: 80px;
+}
+
+.pageTitle{
+        text-align: center;
+}
+
+.aboutUs{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 80px;
+}
+
+.vidGallery{ 
+        display: flex;
+}
+
+.picGallery{
+        display: flex;
+}
+
+.form{
+        display: grid;
+        width: 80%;
+        margin:auto;
+}
