@@ -35,12 +35,17 @@
 
 .pageTitle{
         text-align: center;
+        padding: 5%;
 }
 
 .aboutUs{
         text-align: center;
-        padding-left: 20px;
-        padding-right: 80px;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+.aboutUsTitle{
+        padding: 1rem;
 }
 
 .vidGallery{ 
@@ -53,6 +58,20 @@
 
 .form{
         display: grid;
-        width: 80%;
         margin:auto;
+        width: 80%;
+}
+
+.cardContainer{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+.card{
+        padding: 10%;
 }
