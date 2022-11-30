@@ -56,12 +56,6 @@
         display: flex;
 }
 
-.form{
-        display: grid;
-        margin:auto;
-        width: 80%;
-}
-
 .cardContainer{
         display: grid;
         text-align: center;
