@@ -48,15 +48,42 @@
         padding: 1rem;
 }
 
+.galleriesTitle{
+        text-align: center;
+        padding: 2%;
+}
+
+.vidGalleryWrapper{
+        overflow: scroll;
+}
+
 .vidGallery{ 
         display: flex;
+        list-style: none;
+        gap: 5%;
+}
+
+.vid{
+        width: 100%;
+        height: 100%;
+}
+
+.picGalleryWrapper{
+        overflow: scroll;
 }
 
 .picGallery{
         display: flex;
+        list-style: none;
+        gap: 5%;
 }
 
-.cardContainer{
+.pic{
+        width: 100%;
+        height: 100%;
+}
+
+.meetTheTeamCards{
         display: grid;
         text-align: center;
         justify-content: center;
@@ -66,6 +93,6 @@
         padding-right: 10%;
 }
 
-.card{
+.mttcard{
         padding: 10%;
 }
