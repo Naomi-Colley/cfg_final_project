@@ -28,27 +28,6 @@
         background-color: rgba(255, 255, 255, 0.6);
 }
 
-.leftLogo{
-        width: 40px;
-        height: 40px;
-}
-
-.rightLogo{
-        width: 40px;
-        height: 40px;
-}
-
-.pictureBox{
-        display: block;
-        float: left;
-}
-
-.pictureBox ul{
-        list-style-type: none;
-        padding-right: 80px;
-        padding-left: 80px;
-}
-
 .pageTitle{
         text-align: center;
         padding: 5%;
@@ -70,8 +49,8 @@
 }
 
 .Videos {
-        width: 400px;
-        height: 400px;
+        height: 50rem;
+        max-width: 50rem;
         }
 
 .col-3{
