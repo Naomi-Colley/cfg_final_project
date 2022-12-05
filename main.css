@@ -1,9 +1,8 @@
+/*Code that is on every page*/
+
 .navbar {
         min-height: 70px;
-        position: fixed;
         width: 100%; 
-        
-         
 }
 
 .navbar-brand {
@@ -24,58 +23,13 @@
 }
 
 .jumbotron{
-        padding-top: 100px;
+        padding-bottom: 0;
+        margin-bottom: 0;
         background-color: rgba(255, 255, 255, 0.6);
 }
 
-.pageTitle{
-        text-align: center;
-        padding: 5%;
-}
-
-.aboutUs{
-        text-align: center;
-        padding-left: 25%;
-        padding-right: 25%;
-}
-
-.aboutUsTitle{
-        padding: 1rem;
-}
-
-.galleriesTitle{
-        text-align: center;
-        padding: 2%;
-}
-
-.Videos {
-        height: 50rem;
-        max-width: 50rem;
-        }
-
-.col-3{
-        height: 100%;
-}
-
-.meetTheTeamCards{
-        display: grid;
-        text-align: center;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr;
-        gap: 10%;
-        padding-left: 10%;
-        padding-right: 10%;
-}
-
-.mttcard{
-        padding: 1%;
-}
-
-.col{
-        padding: 100px;
-}
-
 .footer{
+        margin-top: 10rem;
         text-align: center;
         padding: 30px;
         background-color: rgb(233, 233, 122);
@@ -106,7 +60,68 @@
         color: white;
 }
 
+/*Index page code start*/
 
+.buttonBox{
+        text-align: center;
+}
+
+.aboutUs{
+        text-align: center;
+        padding-left: 25%;
+        padding-right: 25%;
+}
+
+.aboutUsTitle{
+        padding: 1rem;
+}
+
+.aboutUsPara{
+        font-size: medium;
+}
+
+.col-3{
+        height: 100%;
+}
+
+/*Galleries page code start*/
+
+.galleriesTitle{
+        text-align: center;
+        padding: 2%;
+}
+
+.Videos {
+        height: 50rem;
+        max-width: 50rem;
+        }
+
+/*Meet the team page code start*/
+
+.rowMTT{
+        justify-items: center;
+}
+
+.col-sm-6{
+        justify-content: center;
+        padding: 3%;
+}
+
+.card-img-top{
+        min-width: 30rem;
+        max-width: 40rem;
+}
+
+.card-title {
+        font-weight: bold;
+        padding-bottom: 2%;
+}
+
+.card-text{
+        font-size: medium;
+}
+
+/*Make everything okay button code start*/
 
 *
     
