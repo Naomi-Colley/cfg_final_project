@@ -3,6 +3,9 @@
 .navbar {
         min-height: 70px;
         width: 100%; 
+        background-image: url(Images/clouds.jpg);
+        background-size: cover;
+        font-weight: bold;
 }
 
 .navbar-brand {
@@ -25,7 +28,6 @@
 .jumbotron{
         padding-bottom: 0;
         margin-bottom: 0;
-        background-color: rgba(255, 255, 255, 0.6);
 }
 
 .footer{
