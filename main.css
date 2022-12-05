@@ -8,16 +8,12 @@
         height: 80px;
         line-height: 80px;
 }
-
-      
+    
 .navbar-toggle {
         margin-top: 23px;
         padding: 9px 10px 
 }
  
-
-      
-
 .nav-item{
         font-size: 20px;
         padding: 9px 10px; 
@@ -28,7 +24,6 @@
         padding: 50px;
         background-color: rgba(255, 255, 255, 0.6);
 }
-
 
 .leftLogo{
         width: 40px;
@@ -51,7 +46,6 @@
         padding-left: 80px;
 }
 
-
 .pageTitle{
         text-align: center;
         padding: 5%;
@@ -72,31 +66,7 @@
         padding: 2%;
 }
 
-
-
-.vidGallery{ 
-        display: flex;
-        list-style: none;
-        gap: 5%;
-}
-
-.vid{
-        width: 100%;
-        height: 100%;
-}
-
-.picGalleryWrapper{
-        overflow: scroll;
-}
-
-.picGallery{
-        display: flex;
-        list-style: none;
-        gap: 5%;
-}
-
-
-    .Videos {
+.Videos {
         width: 400px;
         height: 400px;
         }
