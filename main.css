@@ -340,6 +340,9 @@
 .bi-instagram {
         margin-left: 10px;    
 }
+.bi-instagram:hover {
+        opacity: 0.7;  
+}
 
 .bi-linkedin:hover {
         opacity: 0.7;
