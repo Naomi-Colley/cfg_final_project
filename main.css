@@ -1,6 +1,6 @@
 /*Navbar/Page title code start*/
 
-.navbar {
+.navbar{
         min-height: 70px;
         width: 100%; 
         background-image: url(Images/clouds.jpg);
@@ -10,13 +10,13 @@
         z-index: 100;
 }
 
-.navbar-brand {
+.navbar-brand{
         padding: 15px;
         height: 80px;
         line-height: 80px;
 }
     
-.navbar-toggle {
+.navbar-toggle{
         margin-top: 23px;
         padding: 9px 10px;
 }
@@ -30,7 +30,14 @@
         padding-bottom: 20;
         margin-bottom: 0;
         padding-top: 100px;
-        background-color: #fff;
+        background-color: transparent;
+}
+
+.background{
+        background-image: url(Images/sunshineBackground.webp);
+        background-size: 100% 90%;
+        background-position: center;
+        background-repeat: no-repeat;
 }
 
 /*Index page code start*/
@@ -95,31 +102,38 @@
 
 /*Meet the team page code start*/
 
-.col-sm-6{
-        margin: 0 auto;
+.cardContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
 }
 
-.card-img-top{
-        min-width: 40rem;
-        max-width: 40rem;
+.cardContainer .cardBox{
+        justify-items: auto;
+        width: 60rem;
+        padding: 5rem;
 }
 
-.card-title {
-        font-weight: bold;
-        padding-bottom: 2%;
+.cardContainer .cardBox .card-body{
+        background-color: white;
+        border-radius: 5rem;
+        box-shadow: 0 0 5px 10px white;
 }
 
-.card-text{
-        font-size: large;
-        padding-left: 20%;
-        padding-right: 20%;
+.cardContainer .cardBox img{
+        border-radius: 5rem;
+        box-shadow: 0 0 20px 20px white;
+        width: 40rem;
 }
 
-
-.btn{
-        margin-bottom: 5rem;
+.btn:hover{
+        background-image: url(Images/rainbow.png);
+        background-size: 100% 90%;
+        background-position: center;
+        color: black;
+        font-weight: bolder;
 }
-
 
 /*Resources page code start*/
 
