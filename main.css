@@ -6,6 +6,8 @@
         background-image: url(Images/clouds.jpg);
         background-size: cover;
         font-weight: bold;
+        position: fixed;
+        z-index: 100;
 }
 
 .navbar-brand {
@@ -26,41 +28,14 @@
 }
 
 .jumbotron{
-        padding-bottom: 0;
+        padding-bottom: 20;
         margin-bottom: 0;
+        padding-top: 100px;
+        background-color: #fff;
 }
 
-.footer{
-        margin-top: 10rem;
-        text-align: center;
-        padding: 30px;
-        background-color: rgb(233, 233, 122);
-        color: black;
-        font-style: normal;
-}
 
-.fa {
-        padding: 20px;
-        font-size: 40px;
-        width: 60px;
-        text-decoration: none;
-        margin: 5px 80px;
-}
 
-.fa-linkedin {
-                background: #007bb5;
-                color: white;
-}
-
-.fa-pinterest {
-        background: #cb2027;
-        color: white;
-}
-
-.fa-reddit {
-        background: #ff5700;
-        color: white;
-}
 
 /*Index page code start*/
 
@@ -122,6 +97,22 @@
 .card-text{
         font-size: medium;
 }
+
+/*Resources page code start*/
+
+#myCarousel {
+        padding-top: 40px;
+        justify-content: center;
+}
+
+.col {
+        padding-top: 50px;
+}
+
+
+
+
+
 
 /*Make everything okay button code start*/
 
@@ -210,6 +201,80 @@
         text-align: center;
         font-size: 30px;
     }
+
+
+/*Footer code start*/
+
+.footer{
+        margin-top: 10rem;
+        text-align: center;
+        padding: 30px;
+        background-color: rgb(233, 233, 122);
+        color: black;
+        font-style: normal;
+        bottom: 0;
+        width: 100%;        
+}
       
-      
-  
+
+
+.icons{
+        padding: 10px;
+        justify-content: center;      
+}
+
+.bi-facebook:hover {
+        opacity: 0.7;
+      }
+
+.bi-linkedin {
+        margin-left: 10px;
+}
+
+.bi-linkedin:hover {
+        opacity: 0.7;
+}
+
+.bi-spotify {
+        margin-left: 10px;    
+}
+
+.bi-spotify:hover {
+        opacity: 0.7;
+}
+
+
+.bi-pinterest {
+        margin-left: 10px;    
+}
+
+.bi-pinterest:hover {
+        opacity: 0.7;
+}
+
+
+.bi-twitter {
+        margin-left: 10px;    
+}
+
+.bi-twitter:hover {
+        opacity: 0.7;
+}
+
+
+.bi-reddit {
+        margin-left: 10px;    
+}
+
+.bi-reddit:hover {
+        opacity: 0.7;
+}
+
+
+.bi-instagram {
+        margin-left: 10px;    
+}
+
+.bi-linkedin:hover {
+        opacity: 0.7;
+}
