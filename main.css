@@ -26,6 +26,18 @@
         padding: 9px 10px;
 }
 
+.pageTitle{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+
+.pageTitle img{
+        padding-top: 100px;
+        height: 30rem;
+        width: 20rem;
+}
+
 .jumbotron{
         padding-bottom: 20;
         margin-bottom: 0;
