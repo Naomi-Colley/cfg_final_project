@@ -115,11 +115,23 @@
         padding-right: 20%;
 }
 
+
 .btn{
         margin-bottom: 5rem;
 }
 
+
 /*Resources page code start*/
+
+.resourcesBtn { 
+        padding-top: 100px;
+}
+        
+.textBtn { 
+        font-size: large;
+        padding-left: 20%;
+        padding-right: 20%;
+}
 
 #myCarousel {
         padding-top: 40px;
