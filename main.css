@@ -1,4 +1,4 @@
-/*Code that is on every page*/
+/*Navbar/Page title code start*/
 
 .navbar {
         min-height: 70px;
@@ -18,13 +18,12 @@
     
 .navbar-toggle {
         margin-top: 23px;
-        padding: 9px 10px 
+        padding: 9px 10px;
 }
  
 .nav-item{
         font-size: 20px;
-        padding: 9px 10px; 
-        justify-content:centre;
+        padding: 9px 10px;
 }
 
 .jumbotron{
@@ -34,9 +33,6 @@
         background-color: #fff;
 }
 
-
-
-
 /*Index page code start*/
 
 .buttonBox{
@@ -45,16 +41,17 @@
 
 .aboutUs{
         text-align: center;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 20%;
+        padding-right: 20%;
 }
 
 .aboutUsTitle{
         padding: 1rem;
+        font-size: xx-large;
 }
 
 .aboutUsPara{
-        font-size: medium;
+        font-size: x-large;
 }
 
 .col-3{
@@ -68,24 +65,48 @@
         padding: 2%;
 }
 
-.Videos {
-        height: 50rem;
-        max-width: 50rem;
-        }
+.galleryContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+.galleryContainer .galleryBox{
+        justify-items: auto;
+        height: 40rem;
+        width: 40rem;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+        border-radius: .5rem;
+        cursor:pointer;
+}
+
+.galleryContainer .galleryBox iframe{
+        height: 100%;
+        width: 100%;
+}
+
+.galleryContainer .galleryBox img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        outline: none;
+        border: none;
+        cursor: pointer;
+}
+
+.galleryContainer .galleryBox img:hover{
+        transition: .2s linear;
+        transform: scale(1.3rem);
+}
 
 /*Meet the team page code start*/
 
-.rowMTT{
-        justify-items: center;
-}
-
 .col-sm-6{
-        justify-content: center;
-        padding: 3%;
+        margin: 0 auto;
 }
 
 .card-img-top{
-        min-width: 30rem;
+        min-width: 40rem;
         max-width: 40rem;
 }
 
@@ -95,7 +116,13 @@
 }
 
 .card-text{
-        font-size: medium;
+        font-size: large;
+        padding-left: 20%;
+        padding-right: 20%;
+}
+
+.btn{
+        margin-bottom: 5rem;
 }
 
 /*Resources page code start*/
@@ -108,11 +135,6 @@
 .col {
         padding-top: 50px;
 }
-
-
-
-
-
 
 /*Make everything okay button code start*/
 
@@ -209,7 +231,8 @@
         margin-top: 20px;
         text-align: center;
         padding: 30px;
-        background-color: rgb(233, 233, 122);
+        background-image: url(Images/clouds.jpg);
+        background-size: cover;
         color: black;
         font-style: normal;
         bottom: 0;
